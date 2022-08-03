@@ -7,7 +7,7 @@ const app = express()
 const server = http.createServer(app)
 const io = new Server(server, {
     cors: {
-        origin: 'https://chat-vueee.herokuapp.com/',
+        origin: 'http://localhost:8080/',
         credentials: true,
         methods: ['GET', 'POST']
     }
