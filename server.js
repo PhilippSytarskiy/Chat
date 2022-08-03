@@ -7,7 +7,7 @@ const app = express()
 const server = http.createServer(app)
 const io = new Server(server, {
     cors: {
-        origin: 'https://62ea70a679d64b0a138cddd0--tourmaline-bunny-fbf761.netlify.app/',
+        origin: 'https://62ea70a679d64b0a138cddd0--tourmaline-bunny-fbf761.netlify.app',
         credentials: true,
         methods: ['GET', 'POST']
     }
