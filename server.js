@@ -10,7 +10,8 @@ const io = new Server(server, {
         origin: 'https://62ea70a679d64b0a138cddd0--tourmaline-bunny-fbf761.netlify.app',
         credentials: true,
         methods: ['GET', 'POST']
-    }
+    },
+    transports: ['websocket']
 })
 
 const users = require('./users')()
